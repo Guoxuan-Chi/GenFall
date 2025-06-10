@@ -122,6 +122,6 @@ This project uses relative paths, so all paths are relative to the project root.
 ## Model Description
 
 This project uses a Transformer-based diffusion model with the following characteristics:
-- Input: STFT features of Doppler radar signals.
+- Input: Raw CSI then convert to STFT features.
 - Output: Reconstructed signal features.
-- Evaluation metrics: Reconstruction quality (SSIM, PSNR, etc.) is used to detect anomalies.
+- Evaluation metrics: Reconstruction quality (SSIM, PSNR, etc.) is used to detect anomalies (Falls).
