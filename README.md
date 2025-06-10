@@ -1,6 +1,6 @@
 # GenFall: Self-Supervised Wireless Fall Detection via Generative Diffusion Model
 
-This project is a deep-learning-based fall detection system that uses a diffusion model for anomaly detection. It detects human fall events by analyzing Doppler radar signals.
+Falls pose a significant public health concern, leading to numerous injuries and fatalities annually. Most existing fall detection methods often rely on supervised learning, necessitating extensive labeled datasets that are challenging to obtain and may not encompass the diverse nature of fall events. To address these limitations, we introduce GenFall, a pioneering self-supervised wireless fall detection system utilizing a generative diffusion model. GenFall employs an imputation-based spectrogram reconstruction framework, coupled with a dual-path signal diffusion model, to accurately reconstruct normal signal patterns while amplifying anomalies associated with falls. A multi-metric anomaly detection module then assesses the similarity between original and reconstructed spectrograms, effectively distinguishing fall events from typical daily activities. Extensive real-world experiments demonstrate that GenFall, operating without the need for labeled data, achieves an overall accuracy of 97.5%, surpassing both existing supervised and unsupervised methods.
 
 ## Environment Requirements
 
